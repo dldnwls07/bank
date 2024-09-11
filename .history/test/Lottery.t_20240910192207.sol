@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
+
+import {Test, console} from "forge-std/Test.sol";
+import {Lottery} from "../src/Lottery.sol";
+
+contract CounterTest is Test {
+    Lottery public lottery;
+    address public user; //Lottery 지갑 주소
+
+    function setUp() public {
+        user = vm.addr(0x1234);
+        lottery = new Lottery(); 
+    }
+
+    function test_play() public {
+        bool result = lottery.play{value: 0.02 ether}();
+        assertTrue(result);
+    }
+    function test_withdraw() public {
+        lottery.withdraw(0.02 ether);
+    }
+}
+    

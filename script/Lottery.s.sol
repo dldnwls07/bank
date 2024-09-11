@@ -15,5 +15,5 @@ contract CounterScript is Script {
         lottery = new Lottery();
 
         vm.stopBroadcast();
-    }
+    } 
 }

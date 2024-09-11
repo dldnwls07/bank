@@ -9,9 +9,9 @@ contract Lottery {
     }
    
     function play() public payable returns (bool) {
-        require(msg.value > 0.01 ether);
+        require(msg.value == 0.1 ether);
         if (block.timestamp % 7 == 0) {
-            (bool success, ) = payable(msg.sender).call{value: address(this).balance}("");
+            (bool success, ) = payable(msg.sender).call{value: 1 ether}("");
             require(success);
             return true;
         }else {
