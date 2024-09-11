@@ -10,4 +10,14 @@ contract LotteryHack{
     constructor(address _lottery) {
         lottery = Lottery(_lottery);
     }
+    function desposit() public payable {
+        
+    }
+    function withdraw(uint256 _amount) public {
+        (bool success,) = payable(msg.sender).call{value: _amount}("");
+    }   
+    function playhack() public{
+        require(block.timestamp % 7 == 0);
+        lottery.play();
+    }
 }
