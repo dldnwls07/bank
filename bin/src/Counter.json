@@ -1,0 +1,399 @@
+{
+    "contractName": "Counter",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "decrement",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "increment",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "number",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "newNumber",
+                    "type": "uint256"
+                }
+            ],
+            "name": "setNumber",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"decrement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newNumber\",\"type\":\"uint256\"}],\"name\":\"setNumber\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/feca1/solidity/bank/src/Counter.sol\":\"Counter\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"c:/Users/feca1/solidity/bank/src/Counter.sol\":{\"keccak256\":\"0xa02ef902dd01cdfa390fb9fc9325ff8d0373700132bc0ad763d5723ab04a4b4e\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://99ce550a8beedfa9107f400bc091f649408d9db9435daae485c510cabaf693a2\",\"dweb:/ipfs/QmeX4UmV3bcD8iAxoDcvEPdPySfcr9Mcp3xFwzPvaVkoxk\"]}},\"version\":1}",
+    "bytecode": "6080806040523460135760da908160188239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c9081632baeceb714608c5781633fb5c1cb1460765781638381f58a14605f575063d09de08a146043575f80fd5b34605b575f366003190112605b575f80546001019055005b5f80fd5b34605b575f366003190112605b576020905f548152f35b34605b576020366003190112605b576004355f55005b34605b575f366003190112605b575f80545f1901905500fea26469706673582212206358dc7f9231251bee5dbd9aebdc6dbfe54735b46a7e6c2cad3ba7a0f50f98e564736f6c634300081b0033",
+    "deployedBytecode": "60808060405260043610156011575f80fd5b5f3560e01c9081632baeceb714608c5781633fb5c1cb1460765781638381f58a14605f575063d09de08a146043575f80fd5b34605b575f366003190112605b575f80546001019055005b5f80fd5b34605b575f366003190112605b576020905f548152f35b34605b576020366003190112605b576004355f55005b34605b575f366003190112605b575f80545f1901905500fea26469706673582212206358dc7f9231251bee5dbd9aebdc6dbfe54735b46a7e6c2cad3ba7a0f50f98e564736f6c634300081b0033",
+    "sourceMap": "68:336:23:-:0;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "68:336:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:336:23;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;68:336:23;;;;;;;;;;;;;;;;;-1:-1:-1;;68:336:23;;;;;;;;;;;;;;;-1:-1:-1;;68:336:23;;;;;;;-1:-1:-1;;68:336:23;;;",
+    "sourcePath": "c:/Users/feca1/solidity/bank/src/Counter.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.27+commit.40a35a09"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/feca1/solidity/bank/src/Counter.sol",
+        "exportedSymbols": {
+            "Counter": [
+                39014
+            ]
+        },
+        "id": 39015,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 38985,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".13"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "40:24:23"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "Counter",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 39014,
+                "linearizedBaseContracts": [
+                    39014
+                ],
+                "name": "Counter",
+                "nameLocation": "77:7:23",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "functionSelector": "8381f58a",
+                        "id": 38987,
+                        "mutability": "mutable",
+                        "name": "number",
+                        "nameLocation": "107:6:23",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 39014,
+                        "src": "92:21:23",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 38986,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "92:7:23",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 38996,
+                            "nodeType": "Block",
+                            "src": "167:41:23",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 38994,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftHandSide": {
+                                            "id": 38992,
+                                            "name": "number",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 38987,
+                                            "src": "182:6:23",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "nodeType": "Assignment",
+                                        "operator": "=",
+                                        "rightHandSide": {
+                                            "id": 38993,
+                                            "name": "newNumber",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 38989,
+                                            "src": "191:9:23",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "src": "182:18:23",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "id": 38995,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "182:18:23"
+                                }
+                            ]
+                        },
+                        "functionSelector": "3fb5c1cb",
+                        "id": 38997,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "setNumber",
+                        "nameLocation": "131:9:23",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 38990,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 38989,
+                                    "mutability": "mutable",
+                                    "name": "newNumber",
+                                    "nameLocation": "149:9:23",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 38997,
+                                    "src": "141:17:23",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint256",
+                                        "typeString": "uint256"
+                                    },
+                                    "typeName": {
+                                        "id": 38988,
+                                        "name": "uint256",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "141:7:23",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "140:19:23"
+                        },
+                        "returnParameters": {
+                            "id": 38991,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "167:0:23"
+                        },
+                        "scope": 39014,
+                        "src": "122:86:23",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 39004,
+                            "nodeType": "Block",
+                            "src": "244:63:23",
+                            "statements": [
+                                {
+                                    "id": 39003,
+                                    "nodeType": "UncheckedBlock",
+                                    "src": "255:45:23",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "id": 39001,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "nodeType": "UnaryOperation",
+                                                "operator": "++",
+                                                "prefix": false,
+                                                "src": "280:8:23",
+                                                "subExpression": {
+                                                    "id": 39000,
+                                                    "name": "number",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 38987,
+                                                    "src": "280:6:23",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                    }
+                                                },
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "id": 39002,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "280:8:23"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "functionSelector": "d09de08a",
+                        "id": 39005,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "increment",
+                        "nameLocation": "225:9:23",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 38998,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "234:2:23"
+                        },
+                        "returnParameters": {
+                            "id": 38999,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "244:0:23"
+                        },
+                        "scope": 39014,
+                        "src": "216:91:23",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 39012,
+                            "nodeType": "Block",
+                            "src": "339:62:23",
+                            "statements": [
+                                {
+                                    "id": 39011,
+                                    "nodeType": "UncheckedBlock",
+                                    "src": "350:44:23",
+                                    "statements": [
+                                        {
+                                            "expression": {
+                                                "id": 39009,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": false,
+                                                "lValueRequested": false,
+                                                "nodeType": "UnaryOperation",
+                                                "operator": "--",
+                                                "prefix": false,
+                                                "src": "374:8:23",
+                                                "subExpression": {
+                                                    "id": 39008,
+                                                    "name": "number",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 38987,
+                                                    "src": "374:6:23",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_uint256",
+                                                        "typeString": "uint256"
+                                                    }
+                                                },
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "id": 39010,
+                                            "nodeType": "ExpressionStatement",
+                                            "src": "374:8:23"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "functionSelector": "2baeceb7",
+                        "id": 39013,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "decrement",
+                        "nameLocation": "322:9:23",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 39006,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "331:2:23"
+                        },
+                        "returnParameters": {
+                            "id": 39007,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "339:0:23"
+                        },
+                        "scope": 39014,
+                        "src": "313:88:23",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 39015,
+                "src": "68:336:23",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "40:364:23"
+    },
+    "functionHashes": {
+        "decrement()": "2baeceb7",
+        "increment()": "d09de08a",
+        "number()": "8381f58a",
+        "setNumber(uint256)": "3fb5c1cb"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "43600",
+            "executionCost": "99",
+            "totalCost": "43699"
+        },
+        "external": {
+            "decrement()": "24343",
+            "increment()": "24406",
+            "number()": "2291",
+            "setNumber(uint256)": "22258"
+        }
+    }
+}
